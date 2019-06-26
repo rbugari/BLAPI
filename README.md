@@ -1,2 +1,2 @@
-# MERN STACK
-this is a CRUD app example write with React, Node, Expres and Mongodb
+# BL API
+test de BL para app de kargho
