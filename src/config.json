@@ -1,0 +1,160 @@
+[{
+    "eth_desc":"rinkeby",
+    "eth_account" : "0x98d9fe5959cda032fd701cef8a0e398f80c0153a",
+    "eth_privkey":"ED0F1E5494B7A26A656651CFD411CFE00B329435C593AFDB6586D8133931DAD7",
+    "eth_contract" :"0x002149afc18df3ba785c8e159411f0c59eb217d8",
+    "web3_path":"https://rinkeby.infura.io/v3/75b21001bafe4f1bad5da6513a7db17d",
+    "eth_abi":[
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_key",
+                    "type": "string"
+                }
+            ],
+            "name": "ifExist",
+            "outputs": [
+                {
+                    "name": "_used",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "name": "claves",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "elementCount",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "_key",
+                    "type": "string"
+                }
+            ],
+            "name": "GetContent",
+            "outputs": [
+                {
+                    "name": "_xtype",
+                    "type": "string"
+                },
+                {
+                    "name": "_data",
+                    "type": "string"
+                },
+                {
+                    "name": "_hash",
+                    "type": "string"
+                },
+                {
+                    "name": "_tags",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "_key",
+                    "type": "string"
+                },
+                {
+                    "name": "_xtype",
+                    "type": "string"
+                },
+                {
+                    "name": "_data",
+                    "type": "string"
+                },
+                {
+                    "name": "_hash",
+                    "type": "string"
+                },
+                {
+                    "name": "_tags",
+                    "type": "string"
+                }
+            ],
+            "name": "NewContent",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "key",
+                    "type": "string"
+                },
+                {
+                    "indexed": false,
+                    "name": "index",
+                    "type": "uint256"
+                }
+            ],
+            "name": "NewItem",
+            "type": "event"
+        }
+    ],
+    "useDB":false,
+    "useBL":true,
+    "DBstring": "mongodb+srv://admin:A1111rfb@cluster0-ajh5c.mongodb.net/kargho?retryWrites=true&w=majority"
+},
+{
+    "eth_desc":"GANACHE",
+    "eth_account" : "0x378Ff03879a40e9eb2B1Cf4E9C08145e77DcED2E",
+    "eth_privkey":"6C329D7C8BB0554FA7EBC1CB88D253EB9B8E1AF2F32BCEC5D024744E35AFA58B",
+    "eth_contract" :"0x27138c348214bfeca12cb5995712406b828ef78e",
+    "web3_path":"HTTP://127.0.0.1:7545",
+    "eth_abi":"",
+    "useDB":false,
+    "useBL":true,
+    "DBstring": "mongodb+srv://admin:A1111rfb@cluster0-ajh5c.mongodb.net/kargho?retryWrites=true&w=majority"
+}
+]
